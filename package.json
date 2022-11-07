@@ -49,5 +49,16 @@
     "eslint": "^8.26.0",
     "eslint-plugin-react": "^7.31.10",
     "husky": "^8.0.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerasalgado/Blad-deploymen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gerasalgado/Blad-deploymen/issues"
   }
 }
