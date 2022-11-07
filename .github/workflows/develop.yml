@@ -30,7 +30,7 @@ jobs:
         run: npm install
 
       - name: build
-        run: npm build
+        run: npm 
 
       - name: deploy
         run: npm deploy -p --auth {{secrets.GERAQATOKEN}} --site {{secrets.SITEID}}
