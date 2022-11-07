@@ -29,8 +29,11 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Build
-        run: CI=false npm run build
+      - name: build
+        run: npm build
+
+      - name: deploy
+        run: npm deploy -p --auth {{secrets.GERAQATOKEN}} --site {{secrets.SITEID}}
 
       - name: Run test
         run: npm run test
